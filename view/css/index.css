@@ -1,0 +1,431 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+section{
+	width: 100%;
+	height: 5200px;
+	background: #F2F2F2;
+	margin-top: 20px;
+}
+section #hot_sell{
+	width: 1200px;
+	height: 350px;
+	margin: 0 auto;
+	background: #F2F2F2;
+
+}
+section div .left_title{
+	width: 250px;
+	height: 48px;
+	text-align: center;
+	line-height: 45px;
+	font-weight:bold;
+	font-size: 20px;
+	background: #fff;
+	float: left;
+	position: relative;
+	z-index: 2;
+	box-shadow: -2px -2px 8px #c4c4c4;
+}
+
+section div .left_title .left_pic{
+	display: block;
+	position: absolute;
+	right: -50px;
+	top: -10px;
+}
+section div .left_title .left_p{
+	display:block;
+	margin-left: 20px;
+	margin-top: 15px; 
+	float: left;
+
+}
+section div .left_title .right_p{
+	display:block;
+	margin-right: 20px;
+	margin-top: 15px; 
+	float: right;
+
+}
+
+section #hot_sell ul{
+	width: 1200px;
+	height: 300px;
+	background: #fff;
+	float: left;
+	box-shadow: 0 0 8px #c4c4c4;
+	position: relative;
+	z-index: 1;
+}
+section #hot_sell ul li{
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+section #hot_sell ul li a{
+	display: block;
+	width: 260px;
+	height: 260px;
+	padding: 9px;
+	margin:10px;
+	border: 1px solid #FFF;
+}
+section #hot_sell ul li a img{
+	display: block;
+	width:200px;
+	height:200px;
+	margin: 0 auto;
+}
+section #hot_sell ul li a span{
+	display: block;
+	text-align: center;
+	color: #000;
+}
+section #newthing{
+	width: 1200px;
+	height: 1161px;
+	background: #f2f2f2;
+	margin: 0 auto;
+	margin-top:30px;
+	position: relative;
+	z-index: 1;
+}
+section div .right_title{
+	width: 250px;
+	height: 48px;
+	text-align: center;
+	line-height: 45px;
+	font-weight:bold;
+	font-size: 20px;
+	background: #fff;
+	float: right;
+	position: relative;
+	z-index: 2;
+	box-shadow: 2px -2px 8px #c4c4c4;
+}
+section div .right_title .right_pic{
+	display: block;
+	position: absolute;
+	right: 250px;
+	top: -7px;
+}
+section div .right_title .left_p{
+	display:block;
+	margin-left: 20px;
+	margin-top: 15px; 
+	float: left;
+
+}
+section div .right_title .right_p{
+	display:block;
+	margin-right: 20px;
+	margin-top: 15px; 
+	float: right;
+}
+section #newthing ul{
+	width: 1152px;
+	height: 1161px;
+	float: left;
+	background: #fff;
+	padding: 24px;
+	box-shadow: 0 0 8px #c4c4c4;
+}
+section #newthing ul img{
+	float: left;
+}
+section #newthing ul li{
+	width: 200px;
+	height: 305px;
+	float: left;
+    text-align: center;
+    width: 200px;
+    padding: 19px;
+    border: 1px solid #fff;
+    margin: 13px 22px;
+}
+section #newthing ul li a img{
+	display: block;
+	width:200px;
+	height:200px;
+	margin: 0 auto;
+}
+section #newthing ul li a .desc{
+	display: block;
+	text-align: center;
+	color: #000;
+}
+section #newthing ul li a .price{
+	display: block;
+	text-align: center;
+	color: red;
+}
+section #remen{
+	width: 1200px;
+	height: 1161px;
+	background: #f2f2f2;
+	margin: 0 auto;
+	margin-top:130px;
+	position: relative;
+	z-index: 1;
+}
+section #remen #zhuti{
+	width: 1152px;
+	height: 1113px;
+	float: left;
+	background: #fff;
+	padding: 24px;
+	box-shadow: 0 0 8px #c4c4c4;
+}
+section #remen #zhuti #goods{
+	width: 868px;
+	height: 1113px;
+	float: left;
+}
+section #remen #zhuti #rank{
+	width: 284px;
+	height: 850px;
+	float: left;
+
+}
+section #remen div ul img{
+	float: left;
+}
+section #remen ul li{
+	width: 200px;
+	height: 305px;
+	float: left;
+    text-align: center;
+    width: 200px;
+    padding: 19px;
+    border: 1px solid #fff;
+    margin: 13px 22px;
+}
+
+section #remen #zhuti ul li a img{
+	display: block;
+	width:200px;
+	height:200px;
+	margin: 0 auto;
+}
+section #remen #zhuti ul li a .desc{
+	display: block;
+	text-align: center;
+	color: #000;
+}
+section #remen #zhuti ul li a .price{
+	display: block;
+	text-align: center;
+	color: red;
+}
+section #remen #zhuti #rank #little_title{
+	padding-left: 20px;
+	font-size: 25px;
+}
+section #remen #zhuti #rank #little_title span{
+	color:red;
+}
+section #remen #zhuti #rank #sellrank{
+	width: 284px;
+	height: 800px;
+}
+section #remen #zhuti #rank #sellrank .nan{
+	width: 284px;
+	height: 80px;
+	float: left;
+	padding: 10px 0px;
+
+}
+section #remen #zhuti #rank #sellrank div a span{
+	display: block;
+	width: 50px;
+	height: 80px;
+	color: #8c8c8c;
+	text-align: center;
+	float: left;
+	font-size: 30px;
+	line-height: 80px;
+}
+section #remen #zhuti #rank #sellrank div a div{
+	width: 134px;
+	height: 80px;
+	float: left;
+}
+section #remen #zhuti #rank #sellrank div a div .rank_name{
+	display: block;
+	width: 134px;
+	height: 30px;
+	font-size: 15px;
+	float: left;
+	text-align: left;
+	margin-top: 10px;
+	line-height: 30px;
+	color: #000;
+}
+section #remen #zhuti #rank #sellrank div a div .new_price{
+	display: block;
+	width: 67px;
+	height: 30px;
+	font-size: 15px;
+	color: #C8152D;
+	float: left;
+	text-align: left;
+	line-height: 30px;
+}
+section #remen #zhuti #rank #sellrank div a div .old_price{
+	display: block;
+	width: 67px;
+	height: 30px;
+	font-size: 15px;
+	float: left;
+	text-align: left;
+	text-decoration: line-through;
+	line-height: 30px;
+}
+section #remen #zhuti #rank #sellrank div a img{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+section #youxi{
+	width: 1200px;
+	height: 861px;
+	background: #f2f2f2;
+	margin: 0 auto;
+	margin-top:100px;
+	position: relative;
+	z-index: 1;
+}
+section #youxi ul{
+	width: 1152px;
+	height: 761px;
+	float: left;
+	background: #fff;
+	padding: 24px;
+	box-shadow: 0 0 8px #c4c4c4;
+}
+section #youxi ul img{
+	float: left;
+}
+section #youxi ul li{
+	width: 200px;
+	height: 305px;
+	float: left;
+    text-align: center;
+    width: 200px;
+    padding: 19px;
+    border: 1px solid #fff;
+    margin: 13px 22px;
+}
+section #youxi ul li a img{
+	display: block;
+	width:200px;
+	height:200px;
+	margin: 0 auto;
+}
+section #youxi ul li a .desc{
+	display: block;
+	text-align: center;
+	color: #000;
+}
+section #youxi ul li a .price{
+	display: block;
+	text-align: center;
+	color: red;
+}
+section #yinyue{
+	width: 1200px;
+	height: 800px;
+	background: #f2f2f2;
+	margin: 0 auto;
+	margin-top:30px;
+	position: relative;
+	z-index: 1;
+}
+section #yinyue ul{
+	width: 1152px;
+	height: 701px;
+	float: left;
+	background: #fff;
+	padding: 24px;
+	box-shadow: 0 0 8px #c4c4c4;
+}
+section #yinyue ul img{
+	float: left;
+}
+section #yinyue ul li{
+	width: 200px;
+	height: 305px;
+	float: left;
+    text-align: center;
+    width: 200px;
+    padding: 19px;
+    border: 1px solid #fff;
+    margin: 13px 22px;
+}
+section #yinyue ul li a img{
+	display: block;
+	width:200px;
+	height:200px;
+	margin: 0 auto;
+}
+section #yinyue ul li a .desc{
+	display: block;
+	text-align: center;
+	color: #000;
+}
+section #yinyue ul li a .price{
+	display: block;
+	text-align: center;
+	color: red;
+}
+section #tejia{
+	width: 1200px;
+	height: 400px;
+	background: #f2f2f2;
+	margin: 0 auto;
+	margin-top:30px;
+	position: relative;
+	z-index: 1;
+}
+section #tejia ul{
+	width: 1152px;
+	height: 350px;
+	float: left;
+	background: #fff;
+	padding: 24px;
+	box-shadow: 0 0 8px #c4c4c4;
+}
+section #tejia ul li{
+	width: 200px;
+	height: 305px;
+	float: left;
+    text-align: center;
+    width: 200px;
+    padding: 19px;
+    border: 1px solid #fff;
+    margin: 13px 22px;
+}
+section #tejia ul li a img{
+	display: block;
+	width:200px;
+	height:200px;
+	margin: 0 auto;
+}
+section #tejia ul li a .desc{
+	display: block;
+	text-align: center;
+	color: #000;
+}
+section #tejia ul li a .price{
+	display: block;
+	text-align: center;
+	color: red;
+}

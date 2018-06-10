@@ -1,0 +1,136 @@
+body{
+		margin:0px;
+		padding: 0px;
+		font-family: Microsoft Yahei; 
+		background: #F2F2F2;
+	}
+	section #music{
+		width: 1200px;
+		height: 500px;
+		background: #f2f2f2;
+		margin: 0 auto;
+		margin-top:30px;
+		position: relative;
+		z-index: 1;
+	}
+	#music .left_title{
+		width: 250px;
+		height: 48px;
+		float: left;
+		margin-top: -5px;
+	}
+	#music .left_title ul{
+		list-style: none;
+	}
+	#music .left_title ul li{
+		list-style: none;
+		float: left;
+	    padding: 0 10px;
+	    font-size: 16px;
+	    line-height: 30px;
+	}
+	#music .left_title a{
+		text-decoration: none; 
+		color: #333;
+	}
+	#music .right_title{
+		width: 200px;
+		height: 48px;
+		text-align: center;
+		line-height: 45px;
+		font-weight:bold;
+		font-size: 20px;
+		background: #fff;
+		float: right;
+		position: relative;
+		z-index: 2;
+		box-shadow: 2px -2px 8px #c4c4c4;
+	}
+	#music .right_title .right_pic{
+		display: block;
+		position: absolute;
+		right: 200px;
+		top: -7px;
+	}
+	#music .right_title .left_p{
+	display:block;
+	margin-left: 20px;
+	margin-top: 15px; 
+	float: left;
+
+}
+	#music .right_title .right_p{
+	display:block;
+	margin-right: 20px;
+	margin-top: 15px; 
+	float: right;
+}
+	#music #music_box{
+		width: 1200px;
+		height: 500px;
+		/*background: #fff;
+		float: left;
+		box-shadow: 0 0 8px #c4c4c4;
+		position: relative;
+		z-index: 1;
+		margin:0 auto;*/
+	}
+	#music #music_box  ul{
+		list-style: none;
+		width: 100%;
+		height: 400px;
+		float: left;
+		background: #fff;
+		/*padding: 24px;*/
+		box-shadow: 0 0 8px #c4c4c4;
+		margin:0px;
+		padding: 0px;
+	}
+	#music #music_box  ul li{
+		width: 25%;
+		height: 326px;
+		float: left;
+	    margin: 40px 0px;
+	}
+	#music #music_box  ul li a{
+		text-decoration: none;
+	}
+	#music #music_box  ul li a img{
+		display: block;
+		width:200px;
+		height:200px;
+		margin: 0 auto;
+	}
+	#music #music_box  ul li a .desc{
+		display: block;
+		width: 200px;
+		height: 70px;
+		text-align: center;
+		line-height: 25px;
+		margin-top: 10px;
+		margin-left: 50px;
+		color: #000;
+	}
+	#music #music_box  ul li a .price{
+		display: block;
+		width: 80px;
+		float: left;
+		color: #C8152D;
+        font-size: 20px;
+        margin: 10px 0 0 80px;
+	}
+	#music #music_box  ul li a .throut_price{
+		display: block;
+		width: 50px;
+		float: right;
+		color: #666;
+        font-size: 15px;
+        margin: 10px 70px 0 0;
+        text-decoration: line-through;
+	}
+	.shopcar-pic{
+		display: none;
+		width: 26px;
+		height: 26px;
+		margin-left: 200px;
+	}

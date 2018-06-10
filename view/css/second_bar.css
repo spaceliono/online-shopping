@@ -1,0 +1,150 @@
+.show_goods{
+		display: none;
+		float: left;
+		margin-left: 180px;
+		margin-top: -60px;
+		width: 800px;
+		height: 465px;
+		background: #FFFFFF;
+		box-shadow: 0 0 6px #c4c4c4;
+	}
+	.show_goods2{
+		display: none;
+		float: left;
+		margin-left: 180px;
+		margin-top: -119px;
+		width: 800px;
+		height: 465px;
+		background: #fff;
+		box-shadow: 0 0 6px #c4c4c4;
+	}
+	.show_goods3{
+		display: none;
+		float: left;
+		margin-left: 180px;
+		margin-top: -179px;
+		width: 200px;
+		height: 465px;
+		background: #fff;
+		box-shadow: 0 0 6px #c4c4c4;
+	}
+	#shine #bar #goods_sorts #li_01 .show_goods ul{
+		list-style: none;
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+		background: #fff;
+
+	}
+	#shine #bar #goods_sorts #li_01 .show_goods ul li{
+		list-style: none;
+		float: left;
+		margin-top: 30px;
+		width: 140px;
+		height: 110px;
+		margin-left: 50px;
+	}
+	#shine #bar #goods_sorts #li_01 .show_goods ul li:hover{
+		color: #C8152D;
+		background: none;
+	}
+	#shine #bar #goods_sorts #li_01 .show_goods ul li a{
+		display: block;
+		text-decoration: none;
+	}
+	#shine #bar #goods_sorts #li_01 .show_goods ul li img{
+		margin-right: 20px;
+		width: 80px;
+		height: 80px;
+	}
+	#shine #bar #goods_sorts #li_01 .show_goods ul li span{
+		display: block;
+		width: 150px;
+		height: 20px;
+		font-size: 15px;
+		float: left;
+		/*margin-left: 1px;*/
+		margin-top: -30px;
+		color: #000;
+	}
+
+	#shine #bar #goods_sorts #li_02 .show_goods2 ul{
+		list-style: none;
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+		background: #fff;
+
+	}
+	#shine #bar #goods_sorts #li_02 .show_goods2 ul li{
+		list-style: none;
+		float: left;
+		margin-top: 30px;
+		width: 140px;
+		height: 110px;
+		margin-left: 50px;
+	}
+	#shine #bar #goods_sorts #li_02 .show_goods2 ul li:hover{
+		color: #C8152D;
+		background: none;
+	}
+	#shine #bar #goods_sorts #li_02 .show_goods2 ul li a{
+		display: block;
+		text-decoration: none;
+	}
+	#shine #bar #goods_sorts #li_02 .show_goods2 ul li img{
+		margin-right: 20px;
+		width: 80px;
+		height: 80px;
+	}
+	#shine #bar #goods_sorts #li_02 .show_goods2 ul li span{
+		display: block;
+		width: 150px;
+		height: 20px;
+		font-size: 15px;
+		float: left;
+		/*margin-left: 1px;*/
+		margin-top: -30px;
+		color: #000;
+	}
+
+
+	#shine #bar #goods_sorts #li_03 .show_goods3 ul{
+		list-style: none;
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+		background: #fff;
+
+	}
+	#shine #bar #goods_sorts #li_03 .show_goods3 ul li{
+		list-style: none;
+		float: left;
+		margin-top: 30px;
+		width: 140px;
+		height: 110px;
+		margin-left: 50px;
+	}
+	#shine #bar #goods_sorts #li_03 .show_goods3 ul li:hover{
+		color: #C8152D;
+		background: none;
+	}
+	#shine #bar #goods_sorts #li_03 .show_goods3 ul li a{
+		display: block;
+		text-decoration: none;
+	}
+	#shine #bar #goods_sorts #li_03 .show_goods3 ul li img{
+		margin-right: 20px;
+		width: 80px;
+		height: 80px;
+	}
+	#shine #bar #goods_sorts #li_03 .show_goods3 ul li span{
+		display: block;
+		width: 150px;
+		height: 20px;
+		font-size: 15px;
+		float: left;
+		/*margin-left: 1px;*/
+		margin-top: -30px;
+		color: #000;
+	}

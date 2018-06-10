@@ -1,0 +1,129 @@
+   body{
+		margin: 0px;
+		padding: 0px;
+		background: #F2F2F2;
+	}
+	section{
+		width: 100%;
+		height: 800px;
+		background: #F2F2F2;
+		margin-top: 20px;
+		font-family: Microsoft Yahei; 
+	}
+	#regist{
+		width: 1200px;
+		height: 800px;
+		margin: 0 auto;
+		background: #F2F2F2;
+	}
+	#regist .left_title{
+		width: 150px;
+		height: 48px;
+		text-align: center;
+		line-height: 45px;
+		font-weight:bold;
+		font-size: 20px;
+		background: #fff;
+		float: left;
+		position: relative;
+		z-index: 2;
+		box-shadow: -2px -2px 8px #c4c4c4;
+	}
+	#regist .right_title{
+		float: right;
+		margin-top: 15px;
+	    color: #999;
+	    line-height: 30px;
+	}
+	#regist .right_title a{
+	    color: #C8152D;
+	    text-decoration: none;
+	}
+	#regist .left_title .left_pic{
+		display: block;
+		position: absolute;
+		right: -50px;
+		top: -10px;
+	}
+	#regist .left_title .left_p{
+		display:block;
+		margin-left: 20px;
+		margin-top: 15px; 
+		float: left;
+
+	}
+	#regist .left_title .right_p{
+		display:block;
+		margin-right: 20px;
+		margin-top: 15px; 
+		float: right;
+
+	}
+	#regist-box{
+		width: 1200px;
+		height: 700px;
+		background: #fff;
+		float: left;
+		box-shadow: 0 0 8px #c4c4c4;
+		position: relative;
+		z-index: 1;
+		margin:0 auto;
+	}
+	#regist-box ul{
+		list-style: none;
+		margin: 0 auto;
+		width: 600px;
+		height: 500px;
+		margin-top: 60px;
+	}
+	#regist-box ul li{
+		margin-top: 30px;
+	}
+	.defi-input{
+		width: 500px;
+		height: 50px;
+		text-indent: 14%;
+		font-size: 14px;
+		border: none;
+		outline: none;
+	}
+	#img-01{
+		background: url(../images/uesr_name.jpg) no-repeat left;
+		border-bottom: #CCCCCC 1px solid;
+	}
+	#img-02{
+		background: url(../images/pass_word.jpg) no-repeat left;
+		border-bottom: #CCCCCC 1px solid;
+	}
+	#img-03{
+		background: url(../images/pass_word.jpg) no-repeat left;
+		border-bottom: #CCCCCC 1px solid;
+	}
+	#img-04{
+		background: url(../images/reg_phone.jpg) no-repeat left;
+		border-bottom: #CCCCCC 1px solid;
+	}
+	#img-05{
+		background: url(../images/red_code.jpg) no-repeat left;
+		border-bottom: #CCCCCC 1px solid;
+	}
+	#img-06{
+		background: url(../images/save_address.png) no-repeat;
+		background-size: 100% 100%;
+		text-align: center;
+	    font-size: 18px;
+	    color: #fff;
+	    line-height: 54px;
+	    letter-spacing: 10px;
+	}
+	#red_code{
+		background: url(../images/red_code.png) no-repeat;
+		background-size: 100% 100%;
+		width: 135px;
+		height: 40px;
+		color: #C8152D;
+		float: right;
+		margin: -50px 100px 0px 0px;
+		border: none;
+		outline: none;
+	}

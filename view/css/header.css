@@ -1,0 +1,179 @@
+header{
+		font-family: "微软雅黑";
+		width: 100%;
+		height: 175px;
+		background: url(../images/header_bg.jpg) repeat;
+	}
+	#logo_list{
+		width: 1200px;
+		height: 65px;
+		background: url(../images/logo_bg.png) no-repeat;
+		padding-top:40px; 
+		margin: 0 auto;
+	}
+	#logo_list ul{
+		list-style: none;
+		float: right;
+		margin-top:0px; 
+	}
+	#logo_list ul li{
+		list-style: none;
+		float: left;
+		margin:-20px 10px 0px 10px;
+		
+	}
+	#user{
+		display: block;
+		width: 64px;
+		height: 84px;
+		background: url(../images/face.png) no-repeat center 20px;
+		text-align: center;
+		line-height: 150px;
+		color: #fff;
+		font-size: 20px;
+		position: relative;
+	}
+	#userout{
+		width: 50px;
+		height: 30px;
+		color: #000;
+		position: absolute;
+		line-height: 30px;
+		bottom: -35px;
+		left: 10px;
+		background: #fff;
+	}
+	#userout a{
+		text-decoration:none;
+	}
+	#login{
+		display: block;
+		width: 64px;
+		height: 84px;
+		background: url(../images/login_off.png) no-repeat;
+	}
+	#login:hover{
+		background: url(../images/login_on.png) no-repeat;
+	}
+	#reg{
+		display: block;
+		width: 64px;
+		height: 84px;
+		background: url(../images/reg_off.png) no-repeat;
+	}
+	#reg:hover{
+		background: url(../images/reg_on.png) no-repeat;
+	}
+	#shopcar{
+		display: block;
+		width: 64px;
+		height: 84px;
+		background: url(../images/shoppingcar_off.png) no-repeat;
+	}
+	#shopcar:hover{
+		background: url(../images/shoppingcar_on.png) no-repeat;
+	}
+	#download{
+		display: block;
+		width: 64px;
+		height: 84px;
+		background: url(../images/download_off.png) no-repeat;
+	}
+	#download:hover{
+		background: url(../images/download_on.png) no-repeat;
+	}
+	#shine{
+		width: 100%;
+		height: 55px;
+		margin-top: 15px;
+		background: url(../images/shine_border.png) no-repeat top;
+	}
+	#shine #bar{
+		width: 1200px;
+		height: 55px;
+		margin: 0 auto;
+	}
+	#shine #goods_sorts{
+		width: 15%;
+		height: 100%;
+		text-align: center;
+		line-height: 60px;
+		letter-spacing:5px; 
+		color: #999;
+		font-size: 18px;
+		float: left;
+	}
+	#shine #bar #goods_sorts ul{
+		list-style: none;
+		margin-top: -5px;
+		width: 100%;
+		height: 465px;
+		background: rgba(0,0,0,0.4);
+		
+		position: relative;
+		z-index: 100;
+	}
+	#shine #bar #goods_sorts ul li{
+		width: 100%;
+		height: 60px;
+		letter-spacing:0px;
+		text-align: left;
+		text-indent: 10%;
+		color: #fff;
+	}
+	#shine #bar #goods_sorts ul li:hover{
+		background: #C8152D;
+	    /*color: #fff;*/
+	}
+	#shine #bar #goods_sorts ul li span{
+		float: right;
+		font-size: 26px;
+		margin-right:20px;
+		vertical-align: center;
+	}
+	#shine #bar ul{
+		list-style: none;
+		width: 60%;
+		height: 100%;
+		float: left;
+		margin: 0px;
+		padding:0px;
+	}
+	#shine #bar li{
+		width: 25%;
+		height: 100%;
+		text-align: center;
+		line-height: 60px;
+		font-size: 18px;
+		float: left;
+	}
+	#bar a{
+		text-decoration: none;
+		color: #999;
+	}
+	#bar a:hover{
+		text-decoration: none;
+		color: #c8152d;
+	}
+	#search_frame{
+		width: 25%;
+		height: 100%;
+		float: left;
+		background: url(../images/search_input.png) no-repeat right center;
+	}
+	#search_input{
+		width: 60%;
+		height: 28px;
+		border: none;
+		outline: none;
+		margin-left: 50px;
+		margin-top: 10px;
+		background: transparent;
+	}
+	#search_button{
+		border: none;
+		outline: none;
+		vertical-align: middle;
+		margin-top: 5px;
+		background: transparent;
+	}

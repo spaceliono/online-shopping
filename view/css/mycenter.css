@@ -1,0 +1,327 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+#hidebg{
+	position:absolute;left:0px;top:0px;  
+    background-color:#002;   
+    width:100%;
+    filter:alpha(opacity=30);  
+    opacity:0.3; 
+    display: none;
+    z-index:100;
+}
+
+section{
+	width: 100%;
+	background: #F2F2F2;
+	padding: 30px 0px 30px 0px;
+	height:1000; 
+	overflow:auto; 
+}
+section #abc{
+	margin:0 auto;
+	width: 1200px;
+	height:auto; 
+	/*background: #FFF;*/
+	
+}
+section div .right_title{
+	width: 250px;
+	height: 48px;
+	text-align: center;
+	line-height: 45px;
+	font-weight:bold;
+	font-size: 20px;
+	background: #fff;
+	float: right;
+	position: relative;
+	z-index: 2;
+	box-shadow: 3px -4px 8px #c4c4c4;
+}
+section div .right_title .right_pic{
+	display: block;
+	position: absolute;
+	right: 240px;
+	top: -7px;
+}
+section div .right_title .left_p{
+	display:block;
+	margin-left: 20px;
+	margin-top: 15px; 
+	float: left;
+
+}
+section div .right_title .right_p{
+	display:block;
+	margin-right: 20px;
+	margin-top: 15px; 
+	float: right;
+}
+
+section div #body{
+	width: 1120px;
+	background: #fff;
+	min-height: 500px;
+	padding:40px;
+	float: left;
+	box-shadow: 0 0 7px #a7a7a7;
+}
+#user_msg{
+	height: 300px;
+	border-bottom: 1px solid #000;
+}
+#change{
+	width: 250px;
+	height: 150px;
+	padding: 10px;
+	margin-top: 20px;
+	float: left;
+	line-height: 25px;
+	border:1px solid #C8124D;
+	position: relative;
+	overflow: hidden;
+}
+#get_user_msg{
+	width: 250px;
+	height: 150px;
+	
+	float: left;
+	line-height: 25px;
+	
+	
+	overflow: hidden;
+}
+#change_btn{
+	width: 270px;
+	height: 50px;
+	
+	text-align: center;
+	background: #c4c4c4;
+	line-height: 50px;
+	cursor: pointer;
+	position: absolute;
+	
+	bottom: -50px;
+	left: 0px;
+}
+#msg_change{
+	width: 420px;
+	height: 250px;
+	position: fixed;
+	
+	padding: 20px;
+	background: #fff;
+	margin:0 auto;
+	top:30%;
+	left:0;
+	right:0;
+	border:1px solid #c7c7c7;
+	z-index: 101;
+}
+#msg_change input{
+	width: 201px;
+	height: 30px;
+	font-size: 16px;
+	text-indent: 10px;
+	margin-top: 19px;
+}
+#user_msg div input{
+	width: 201px;
+	height: 30px;
+	font-size: 16px;
+	text-indent: 10px;
+	margin-top: 19px;
+}
+#close_btn{
+	width: 150px;
+	height: 40px;
+	font-size: 18px;
+	margin-top: 40px;
+	border-radius: 5px;
+	cursor: pointer;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	background: #c4c4c4;
+}
+#save_btn{
+	width: 150px;
+	height: 40px;
+	font-size: 18px;
+	margin-top: 40px;
+	border-radius: 5px;
+	cursor: pointer;
+	float: right;
+	text-align: center;
+	line-height: 40px;
+	background: #10bad1;
+}
+#user_msg div div input{
+	width: 150px;
+	height: 40px;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 40px;
+	border-radius: 5px;
+	border-style: none;
+	background: #10bad1;
+	cursor: pointer;
+	float: right;
+}
+.form-control{
+	width:135px;
+	height: 35px;
+	margin-right: 5px;
+}
+.form-group{
+	float: left;
+}
+#myshopcar{
+	margin:0 auto;
+
+}
+#shopcar_head{
+	height: 60px;
+	border-bottom: 1px solid #c4c4c4;
+}
+#shopcar_head div{
+	height: 60px;
+	line-height: 60px;
+	float: left;
+}
+#good_name{
+	width: 40%;
+}
+#good_price{
+	width: 10%;
+	text-align: center;
+}
+#good_num{
+	width: 10%;
+	text-align: center;
+}
+#xiaoji{
+	width: 10%;
+	text-align: center;
+}
+#comment{
+	width: 40%;
+	text-align: center;
+}
+#del_good{
+	width: 10%;
+	text-align: center;
+}
+.shopcar_good li{
+	float: left;
+	padding: 30px 0px;
+	font-size: 16px;
+	height: 70px;
+	line-height: 70px;
+	border-bottom: 1px #c4c4c4 solid;
+}
+.li_name{
+	width: 40%;
+	overflow: hidden;
+}
+.li_name a img{
+	width: 70px;vertical-align:middle;
+}
+.li_price{
+	width: 10%;
+	text-align: center;
+}
+.li_num{
+	width: 10%;
+	text-align: center;
+}
+.mycomment{
+	width: 40%;
+	text-align: center;
+}
+.mycomment input{
+	width: 300px;
+	height: 30px;
+}
+.mycomment span{
+	margin-left: 20px;
+	color: #10bad1;
+	cursor: pointer;
+}
+.num_box{
+	width: 92px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border:1px #a7a7a7 solid;
+	margin-top: 14px;
+	margin-left: 10px;
+}
+.num_box span{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 40px;
+	cursor: pointer;
+}
+.li_num input{
+	width: 30px;
+	height: 40px;
+	float: left;
+	border-style: none;
+	text-align: center;
+	border-left: 1px #a7a7a7 solid;
+	border-right: 1px #a7a7a7 solid;
+}
+.li_xiaoji{
+	width: 10%;
+	text-align: center;
+}
+.li_del{
+	width: 10%;
+	text-align: center;
+	color:#a70202;;
+}
+.clear{
+	clear: both;
+}
+#toPay{
+	font-size: 19px;
+	padding-top: 20px;
+}
+#all_price{
+	font-size: 25px;
+	color: #e3393c;
+}
+#toPay input{
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	color: #fff;
+	margin-top: 15px;
+	border-radius: 5px;
+	border-style: none;
+	background: #10bad1;
+	cursor: pointer;
+}
+.comment_title{
+	width: 150px;
+	height: 60px;
+	color: #666;
+	line-height: 60px;
+	background: #c4c4c4;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+

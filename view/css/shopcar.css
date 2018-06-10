@@ -1,0 +1,182 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+section{
+	width: 100%;
+	background: #F2F2F2;
+	padding: 30px 0px 30px 0px;
+	height:1000; 
+	overflow:auto; 
+}
+section #abc{
+	margin:0 auto;
+	width: 1200px;
+	height:auto; 
+	/*background: #FFF;*/
+	
+}
+section div .right_title{
+	width: 250px;
+	height: 48px;
+	text-align: center;
+	line-height: 45px;
+	font-weight:bold;
+	font-size: 20px;
+	background: #fff;
+	float: right;
+	position: relative;
+	z-index: 2;
+	box-shadow: 3px -4px 8px #c4c4c4;
+}
+section div .right_title .right_pic{
+	display: block;
+	position: absolute;
+	right: 240px;
+	top: -7px;
+}
+section div .right_title .left_p{
+	display:block;
+	margin-left: 20px;
+	margin-top: 15px; 
+	float: left;
+
+}
+section div .right_title .right_p{
+	display:block;
+	margin-right: 20px;
+	margin-top: 15px; 
+	float: right;
+}
+
+section div #body{
+	width: 1120px;
+	background: #fff;
+	min-height: 500px;
+	padding:40px;
+	float: left;
+	box-shadow: 0 0 7px #a7a7a7;
+}
+#myshopcar{
+	margin:0 auto;
+
+}
+#shopcar_head{
+	height: 60px;
+	border-bottom: 1px solid #000;
+}
+#shopcar_head div{
+	height: 60px;
+	line-height: 60px;
+	float: left;
+}
+#good_name{
+	width: 60%;
+}
+#good_price{
+	width: 10%;
+	text-align: center;
+}
+#good_num{
+	width: 10%;
+	text-align: center;
+}
+#xiaoji{
+	width: 10%;
+	text-align: center;
+}
+#del_good{
+	width: 10%;
+	text-align: center;
+}
+.shopcar_good li{
+	float: left;
+	padding: 30px 0px;
+	font-size: 16px;
+	height: 70px;
+	line-height: 70px;
+	border-bottom: 1px #c4c4c4 solid;
+}
+.li_name{
+	width: 60%;
+}
+.li_name a img{
+	width: 70px;
+	vertical-align:middle;
+}
+.li_price{
+	width: 10%;
+	text-align: center;
+}
+.li_num{
+	width: 10%;
+	text-align: center;
+}
+.num_box{
+	width: 92px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border:1px #a7a7a7 solid;
+	margin-top: 14px;
+	margin-left: 10px;
+}
+.num_box span{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 40px;
+	cursor: pointer;
+}
+.li_num input{
+	width: 30px;
+	height: 40px;
+	float: left;
+	border-style: none;
+	text-align: center;
+	border-left: 1px #a7a7a7 solid;
+	border-right: 1px #a7a7a7 solid;
+}
+.li_xiaoji{
+	width: 10%;
+	text-align: center;
+}
+.li_del{
+	width: 10%;
+	text-align: center;
+	color:#a70202;;
+}
+.li_del span{
+	cursor: pointer;
+}
+.clear{
+	clear: both;
+}
+#toPay{
+	font-size: 17px;
+	padding-top: 20px;
+}
+
+#all_price{
+	font-size: 25px;
+	color: #e3393c;
+}
+#toPay input{
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	color: #fff;
+	margin-top: 15px;
+	border-radius: 5px;
+	border-style: none;
+	background: #10bad1;
+	cursor: pointer;
+}
+
